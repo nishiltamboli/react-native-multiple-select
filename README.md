@@ -145,6 +145,7 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | searchInputPlaceholderText | No      | (String) Placeholder text displayed in multi-select filter input |
 | searchInputStyle | No   | (Object) Style object for multi-select input element  |
 | selectText | No     | (String) Text displayed in main component |
+| selectTextInfo | No     | (String) Added text displayed in main component when items are selected |
 | selectedItemFontFamily | No   | (String) Font family for each selected item in multi-select drop-down |
 | selectedItemIconColor | No     | (String) Color for `selected` check icon for each selected item in multi-select drop-down |
 | selectedItemTextColor | No   | (String) Text color for each selected item in multi-select drop-down |
@@ -168,6 +169,7 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | textInputProps | No | (Object) Properties for the Text Input. Pass any property that is required on the text input |
 | uniqueKey      | Yes      | (String) Unique identifier that is part of each item's properties. Used internally as means of identifying each item (Check sample below) |
 |selectedItems | No      | (Array, control prop) List of selected items keys . JavaScript Array of strings, that can be instantiated with the component |
+|noResultText | No      | (String) Text displayed when there is no item to display |
 | removeSelected | No  | (Boolean) Filter selected items from list to be shown in List |
 
 ## Note
